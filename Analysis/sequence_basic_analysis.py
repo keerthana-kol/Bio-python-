@@ -42,6 +42,8 @@ for record in SeqIO.parse("sequence.fasta", "fasta"):
         # Print amino acid and its percentage
         print(f"{aa}: {percent:.2f}%")
 
+
+#______________________________________________________________________
 # sample output:
 # Length: 109
 # Protein ID: AAA40590.1
