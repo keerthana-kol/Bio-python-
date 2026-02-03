@@ -1,0 +1,14 @@
+Protein: hypothetical protein SPAB_05093
+Predicted Function: Phosphoenolpyruvate–protein phosphotransferase (PTS Enzyme I)
+----------------
+BACKGROUND : 
+The phosphotransferase system (PTS) is a major carbohydrate transport system in bacteria. 
+PTS Enzyme I catalyzes the first step of the pathway by transferring a phosphate group 
+from phosphoenolpyruvate (PEP) to downstream PTS components, enabling sugar uptake 
+and metabolism.
+
+FUNCTION PREDICTION :
+Based on BLAST analysis using Biopython, the query sequence shows very high similarity 
+to annotated PTS Enzyme I and multiphosphoryl transfer proteins from multiple Salmonella 
+strains. Although different names are used in databases, all annotations correspond 
+to the same functional enzyme in the PTS pathway.
