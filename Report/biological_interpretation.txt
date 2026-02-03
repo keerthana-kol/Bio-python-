@@ -17,11 +17,9 @@ What evidence supports their claim?
 
 BLAST taxonomic clustering shows that most homologs belong to Enterobacteriaceae, particularly Salmonella and related enterobacteria.
 This suggests that the sequence likely originated from a common ancestral PTS Enzyme I present in enterobacteria, and has been strongly conserved through evolution due to its essential role in carbohydrate metabolism.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CONCLUSION :
-
-The sequence is confidently predicted to function as PTS Enzyme I involved in 
-carbohydrate transport and metabolism. Homology-based annotation and evolutionary 
+The sequence is confidently predicted to function as PTS Enzyme I involved in carbohydrate transport and metabolism. Homology-based annotation and evolutionary 
 conservation strongly support this prediction.
 
 
