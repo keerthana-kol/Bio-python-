@@ -43,5 +43,6 @@ for record in SeqIO.parse("sequence.fasta", "fasta"):
 #   sample output:1
 # AAA40590.1 Suitable for downstream analysis
 #    sample output:2
+# pir||INCD Removed: Too short
 
 
