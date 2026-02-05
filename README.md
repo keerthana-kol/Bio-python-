@@ -40,6 +40,30 @@ The workflow used in this repository follows these steps:
 ---
 
 ## 📁 Repository Structure
+├── data/
+│   └── input_sequence.fasta
+│       - Contains the protein input sequence used for analysis
+│
+├── analysis/
+│   ├── homology_analysis.py
+│   │   - Performs homology search and related analysis
+│   ├── sequence_basic_analysis.py
+│   │   - Computes basic sequence properties (length, composition, etc.)
+│   └── sequence_validation.py
+│       - Validates the input sequence before downstream analysis
+│
+├── results/
+│   └── blast_results.txt
+│       - Stores BLAST output obtained from homology search
+│
+├── report/
+│   ├── Functional_annotation.txt
+│   │   - Functional annotation inferred from BLAST and database hits
+│   └── biological_interpretation.txt
+│       - Biological significance and interpretation of the results
+│
+└── README.md
+    - Project overview, workflow, and repository details
 
 
 
