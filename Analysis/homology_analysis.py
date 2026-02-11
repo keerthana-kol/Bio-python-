@@ -79,7 +79,7 @@ else:
     print("The protein may be species specific.")
 
 
-
+#sample output:
 # ===== CLOSEST HOMOLOGS =====
 
 # Protein: hypothetical protein SPAB_05093 [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7]
