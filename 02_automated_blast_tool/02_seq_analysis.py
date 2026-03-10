@@ -13,7 +13,7 @@ from Bio.Blast import NCBIXML
 from Bio import SeqIO
 
 # Read the DNA sequence from a FASTA file named sequence.fasta
-record = SeqIO.read("sequence.fasta", "fasta")
+record = SeqIO.read("mycobact.fasta", "fasta")
 # Store the DNA sequence in a variable
 sequence = record.seq
 
