@@ -1,0 +1,27 @@
+from Bio.Blast import NCBIWWW
+from Bio.Blast import NCBIXML
+from Bio import SeqIO
+
+# Read sequence from FASTA file
+record = SeqIO.read("mycobact.fasta", "fasta")
+sequence = record.seq
+
+print("Running BLAST search...")
+
+result_handle = NCBIWWW.qblast("blastn", "nt", sequence)
+
+with open("blast_result.xml", "w") as out_handle:
+    out_handle.write(result_handle.read())
+
+result_handle.close()
+
+result_handle = open("blast_result.xml")
+blast_record = NCBIXML.read(result_handle)
+
+print("\nTop Matches:\n")
+
+for alignment in blast_record.alignments[:5]:
+    print("Accession Number:", alignment.accession)
+    print("Organism:", alignment.hit_def)
+    print("Length:", alignment.length)
+    print("--------------------------------")
