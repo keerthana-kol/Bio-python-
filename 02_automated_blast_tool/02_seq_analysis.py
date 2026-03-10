@@ -59,3 +59,31 @@ for alignment in blast_record.alignments[:5]:
 
     # Print a line separator for readability
     print("----------------------------------")
+
+
+#-------------------------------------------------------------------------------------------------------------------
+#example output:
+# Running BLAST search...
+
+# Top Matches:
+
+# Accession Number: PQ879405
+# Organism: Homo sapiens clone I3464_MOG_3_kappa_3-15_light immunoglobulin kappa light chain mRNA, complete cds
+# Length: 1182
+# --------------------------------
+# Accession Number: AB064131
+# Organism: Homo sapiens IGK mRNA for immunoglobulin kappa light chain VLJ region, partial cds, clone:K90
+# Length: 781
+# --------------------------------
+# Accession Number: MW176761
+# Organism: Homo sapiens isolate A7_7_SR-4_LA_P2S23_Light immunoglobulin variable region mRNA, partial cds; and IGKV3-15*01, IGKJ2*01, and IGKC mRNAs, complete sequence
+# Length: 642
+# --------------------------------
+# Accession Number: MW176709
+# Organism: Homo sapiens isolate A2_2_CI-3_LA_P12S3_2_Light immunoglobulin variable region mRNA, partial cds; and IGKV3-15*01, IGKJ2*01, and IGKC mRNAs, complete sequence
+# Length: 648
+# --------------------------------
+# Accession Number: MW176951
+# Organism: Homo sapiens isolate C8_32_CI-7_LA_P9S3_9_Light immunoglobulin variable region mRNA, partial cds; and IGKV3-15*01, IGKJ2*01, and IGKC mRNAs, complete sequence
+# Length: 651
+# --------------------------------
